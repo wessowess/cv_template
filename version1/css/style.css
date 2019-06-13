@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	font-family: 'Sawarabi Mincho', sans-serif;
+	font-size: 16px; 
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+#calligraphie {
+	position: absolute;
+	top: 0;
+	left: -150px;
+	z-index: -99;
+	width: 100%;
+	text-align: right;
+	transform: rotate(-45deg);
+}
+
+#calligraphie h1 {
+	font-size: 260px;
+	opacity: 0.25;
+}
+
+#global {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 50px;
+	height: 100%;
+}
+
+#global>div {
+	border: 1px solid black;
+}
+
+#header {
+	padding: 40px;
+	text-align: center;
+	border-style: none !important;
+}
+
+#content {
+	margin: 16px 0;
+	width: 100%;
+}
+
+#boxItems {
+	border-style: none !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 8px;
+}
+
+#boxItems>div {
+	width: auto;
+	border: 1px solid black;
+	cursor: pointer;
+}
+#boxItems>div>p {
+	position: absolute;
+	z-index: 99;
+}
+
+#boxItems>div>img {
+	margin: 0;	
+}
+
+#personalInfo {
+	background-color: rgb(255,0,0);
+}
+
+#skills {
+	background-color: rgb(255,255,0);
+}
+
+#languages {
+	background-color: rgb(0,255,0);
+}
+
+#educations {
+	background-color: rgb(0,255,255);
+}
+
+#works {
+	background-color: rgb(0,0,255);
+}
+
+#more {
+	background-color: rgb(255,0,255);
+}
+
+#footer {
+	text-align: center;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li a {
+	text-decoration: none;
+}
+
+#footer {
+	border-style: none !important;
+}
+
